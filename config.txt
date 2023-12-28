@@ -1,0 +1,48 @@
+shading flat # Use keyword smooth or flat
+dimensions 250 250
+vertex_distance 5.0
+
+amplitude 3.6
+frequency 4.8
+persistance 3.5
+lacunarity 4.6
+
+# Define a minimum height; this is optional
+minimum_height -10
+
+# Levels should be in sorted ascending order
+
+###########################
+# Grassy/Mountainous levels
+###########################
+# Levels should range from 0.0 to 1.0
+# Colors should range from 0 to 255
+level 0.0
+color 35 137 218
+
+level 0.1
+color 124 252 0
+
+level 0.5
+color 155 103 60
+
+level 0.9
+color 217 217 217
+
+###########################
+# A desert theme
+###########################
+# level 0.0
+# color 84 60 44
+
+# level 0.1
+# color 223 145 94
+
+# level 0.25
+# color 243 180 139
+
+# level 0.35
+# color 165 136 122
+
+# level 0.45
+# color 208 183 172
